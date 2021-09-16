@@ -8,6 +8,9 @@ header {
     background-color: #568ba4;
     color: white;
 }
+header > h1 {
+    color: #f68e5f;
+}
 
 section > aside {
     background-color: #f5dd90;
@@ -16,8 +19,13 @@ section > aside {
 
 footer {
     text-align: center;
-    background-color: grey;
+    background-color: rgb(78, 76, 76);
+    color: white;
 }
 footer > a > img {
     width: 3%;
+}
+
+section > aside > ul {
+    list-style: none;
 }
